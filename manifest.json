@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Letterboxd Nepo Babies",
+  "version": "0.1.0",
+  "description": "Flags actors on Letterboxd who have a notable parent with their own Wikipedia page.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://letterboxd.com/film/*",
+        "https://www.letterboxd.com/film/*",
+        "https://letterboxd.com/actor/*",
+        "https://www.letterboxd.com/actor/*"
+      ],
+      "js": ["dist/content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["data/nepo-babies.json.gz"],
+      "matches": ["https://letterboxd.com/*"]
+    }
+  ],
+  "permissions": ["storage"],
+  "host_permissions": ["https://somelikeitchott.github.io/nepo-babies-scraper/*"]
+}

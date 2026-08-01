@@ -1,0 +1,14 @@
+{
+  "name": "nepo-babies-extension",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build-data": "node scripts/build-data.js"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.280",
+    "typescript": "^5.7.0"
+  }
+}
