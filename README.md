@@ -6,6 +6,8 @@ parent, using the dataset from
 
 This product uses the TMDB API but is not endorsed or certified by TMDB.
 
+<!-- TODO: screenshot of the cast-list badge/tooltip and the actor-page banner -->
+
 ## Install
 
 ```sh
