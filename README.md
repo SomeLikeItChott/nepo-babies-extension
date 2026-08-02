@@ -5,6 +5,8 @@ parent with their own Wikipedia page, using the dataset produced by the
 [nepo-babies-scraper](https://github.com/SomeLikeItChott/nepo-babies-scraper)
 repo.
 
+This product uses the TMDB API but is not endorsed or certified by TMDB.
+
 ## How it works
 
 `src/content.ts` runs on two kinds of Letterboxd pages. On every page load it
