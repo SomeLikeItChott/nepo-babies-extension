@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Nepo Babies for Letterboxd",
+  "name": "Nepo Baby Detector for Letterboxd",
   "version": "1.0.0",
   "description": "Flags actors on Letterboxd who have a notable parent with their own Wikipedia page.",
   "icons": {
