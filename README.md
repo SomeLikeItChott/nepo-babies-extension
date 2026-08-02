@@ -1,4 +1,4 @@
-# nepo-babies extension
+# Nepo Baby Detector for Letterboxd
 
 Chrome extension that flags actors on Letterboxd who have a notable
 parent, using the dataset from
