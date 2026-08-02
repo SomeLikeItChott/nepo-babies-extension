@@ -27,5 +27,11 @@
     }
   ],
   "permissions": ["storage"],
-  "host_permissions": ["https://somelikeitchott.github.io/nepo-babies-scraper/*"]
+  "host_permissions": ["https://somelikeitchott.github.io/nepo-babies-scraper/*"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "nepo-baby-detector@somelikeitchott.github.io",
+      "strict_min_version": "113.0"
+    }
+  }
 }
