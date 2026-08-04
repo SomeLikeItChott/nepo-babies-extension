@@ -7,7 +7,6 @@ who have a notable parent, using the dataset from
 This product uses the TMDB API but is not endorsed or certified by TMDB.
 
 ![Cast list badge with a hover tooltip naming Angelina Jolie's parents](screenshots/cast-list-tooltip.jpg)
-![Actor page banner flagging Woody Harrelson as a potential nepo baby](screenshots/actor-page-banner.jpg)
 
 ## Install
 
