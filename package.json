@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "build-data": "node scripts/build-data.js"
+    "build-data": "node scripts/build-data.js",
+    "package": "npm run build-data && npm run build && rm -f nepo-baby-detector.zip && zip -r nepo-baby-detector.zip manifest.json content.css dist/content.js data/nepo-babies.json.gz icons -x '**/.DS_Store'"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.280",
