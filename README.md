@@ -1,6 +1,6 @@
 # Nepo Baby Detector for Letterboxd
 
-Browser extension (Chrome and Firefox) that flags actors on Letterboxd
+Browser extension ([Chrome](https://chromewebstore.google.com/detail/nepo-baby-detector-for-le/gbkdcmpnonjbjbaepcbcgeiobhpmgpom) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/nepo-baby-detector-letterboxd/)) that flags actors on Letterboxd
 who have a notable parent, using the dataset from
 [nepo-babies-scraper](https://github.com/SomeLikeItChott/nepo-babies-scraper).
 
